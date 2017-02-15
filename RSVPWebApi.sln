@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RSVPWebApi", "RSVPWebApi\RSVPWebApi.csproj", "{72AB1975-2796-451D-B8ED-BD56E9BD8BD5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RSVPWebApi.Tests", "RSVPWebApi.Tests\RSVPWebApi.Tests.csproj", "{2A30F684-A521-4C2D-9337-D145A51129FF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{72AB1975-2796-451D-B8ED-BD56E9BD8BD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72AB1975-2796-451D-B8ED-BD56E9BD8BD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72AB1975-2796-451D-B8ED-BD56E9BD8BD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72AB1975-2796-451D-B8ED-BD56E9BD8BD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A30F684-A521-4C2D-9337-D145A51129FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A30F684-A521-4C2D-9337-D145A51129FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A30F684-A521-4C2D-9337-D145A51129FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A30F684-A521-4C2D-9337-D145A51129FF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

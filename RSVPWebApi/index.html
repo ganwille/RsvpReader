@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.0.3.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="JavaScript/JavaScript.js"></script>
+    <title>Product App</title>
+</head>
+<body>
+
+    <div>
+        <h2>All Books</h2>
+        <ul id="books"></ul>
+    </div>
+    <div>
+        <h2>Search by ID</h2>
+        <form action="api/books/UploadFile" enctype="multipart/form-data" method="post">
+            <input type="file" name="fileupload" value="fileupload" id="fileupload">
+            <label for="fileupload"> Select a file to upload</label> 
+            <input type="submit" value="submit">
+        </form>
+
+        <!--<input type="file" id="file-input" />
+        <input type="submit" value="Upload file" />
+        <h3>Contents of the file:</h3>
+        <pre id="file-content"></pre>-->
+        <input type="button" value="Start reading" onclick="read();" />
+        <p>
+            <label for="spinner">Words per minute:</label>
+            <input id="spinner" name="value">
+        </p>
+        <div id="book"></div>
+    </div>
+</body>
+</html>
